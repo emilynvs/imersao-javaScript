@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor maromba</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+
+    <div class="container">
+        <div class="content">
+            <h2> Bora ganhar dinheiro, babe</h2>
+            <p>Vamos descobrir quantos reais você pode ter</p>
+            <div class="user">
+                <select id="op">
+                    <option> Selecione uma opção</option>
+                    <option value="won">Won</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                </select>
+
+                <textarea class="valor" placeholder="Digite um valor"></textarea>
+            </div>
+            
+            <div id="resultado">
+                <button id="converter" onclick="conversor()">Bora converter!</button>
+                <div id="resposta" style="display: none;"></div>
+                <button id="voltar" onclick="voltar()" style="display: none;">Voltar</button>
+            </div>
+
+        </div>
+
+    </div>
+    <footer>Alura - Imersão DEV - 2025</footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Glass trail</title>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+
+    <div class="container">
+        <div class="content">
+            <div id="initial">
+                <h2>Pra ganhar, é preciso coragem!</h2>
+                <p> Até mesmo para pisar em um chão feito de vidro</p>
+                <button onclick="start()">Bora jogar!</button>
+            </div>
+            <div id="game" style="display: none;">
+                <h2 id="round">Round 1</h2>
+                <div id="changes">
+                    <p>Escolha uma das opções:</p>
+                    <input type="button" onclick="choice(this)" class="btnActions" value=1>
+                    <input type="button" onclick="choice(this)" class="btnActions" value=2>
+                    <input type="button" onclick="choice(this)" class="btnActions" value=3>
+                </div>
+            </div>
+            <div id="restart" style="display: none;">
+                <button onclick="restart()">restart</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>Alura - Imersão DEV - 2025</footer>
+</body>
+
+</html>

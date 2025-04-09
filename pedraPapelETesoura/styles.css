@@ -1,0 +1,157 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px;
+    width: auto;
+}
+
+/* Container with the background image */
+.container {
+    background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Content div for text and button */
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #ff1b7b;
+    border-radius: 18px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1ABC9C;
+}
+
+/*another divs*/
+#info{
+    text-align: center;
+}
+
+#info label, #info input, .underage{
+    display: block; /* Stacks vertically */
+    margin: 20px auto; /* Centers block elements horizontally */
+}
+
+#textLabel{
+    font-size: 20px;
+}
+
+#age{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+#sendAge{
+    padding: 15px 20px;
+    border-radius: 18px;
+    background-color:#ff1b7b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#sendAge:hover{
+    background-color: #1ABC9C;
+}
+
+.game{
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+
+#btns{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.images{
+    max-width: 150px;
+    border-radius: 15px;
+
+}
+
+.btn{
+    background-color: white;
+    color: #000000;
+    display: block;
+    border-radius: 9px;
+    margin: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #1ABC9C;
+}
+
+#imageStone{
+    max-width: 130px;
+}
+
+#imageScissors{
+    max-width: 125px;
+}
+
+.labels{
+    margin: 25px auto;
+    display: block;
+    font-size: 25px;
+    align-items: start;
+}
+
+.underage{
+    margin: 250px;
+    display: flex;
+    padding: 25px;
+}
+
+#warning{
+    font-size: 20px;
+}
+
+#btnUnderage{
+    margin: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+}

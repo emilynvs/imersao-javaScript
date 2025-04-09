@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>The game</title>
+</head>
+
+<body>
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+
+    <div class="container">
+        <div class="content">
+            <div id="initiation">
+                <h2 id="h2">Pra ganhar é preciso arriscar!</h2>
+                <p id="p"> PEDRA, PAPEL ou TESOURA?</p>
+                <button onclick="start()" id="start">Bora jogar!</button>
+            </div>
+            <div id="info" style="display: none;">
+                <label id="textLabel">Enter your age:</label>
+                <input type="number" id="age" placeholder="Your age here...">
+                <input type="submit" onclick="send()" id="sendAge">
+            </div>
+
+            <div class="game" style="display: none;">
+                <label class="labels">Selecione uma das opções</label>
+                <div id="btns">
+                    <button class="btn" id="paper" value="paper">
+                        <img class="images" id="imagePaper" src="images/istockphoto-1190524331-170667a.jpg">
+                        <label class="labels">Paper</label>
+                    </button>
+                    <button class="btn" id="stone" value="stone">
+                        <img class="images" id="imageStone" src="images/OIP.jpg">
+                        <label class="labels">Stone</label>
+                    </button>
+                    <button class="btn" id="scissors" value="scissors">
+                        <img class="images" id="imageScissors"
+                            src="images/11130132-icone-de-desenho-de-tesoura-gratis-vetor.jpg">
+                        <label class="labels">Scissors</label>
+                    </button>
+                </div>
+                <button class="btnsAction" value="btnGame" onclick="back()">Back</button>
+
+            </div>
+
+            <div id="answer" style="display: none;">
+                <label class="labels" id="result"></label>
+                <button class="btnsAction" value="btnAnswer" onclick="back()">Back</button>
+            </div>
+
+            <div class="underage" style="display: none;">
+                <label id="warning"> Você não pode acessar esse jogo</label>
+                <button class="btnsAction" value="btnUnderage" onclick="back()">Back</button>
+            </div>
+        </div>
+    </div>
+    <footer>Alura - Imersão DEV - 2025</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
