@@ -19,7 +19,7 @@ body {
 
 /* Container with the background image */
 .container {
-    background: url('https://ec.i.uol.com.br/economia/2011/12/02/tio-patinhas-1322844928187_956x500.jpg') no-repeat center center/cover;
+    background: url('./images/money.jpg') no-repeat center center/cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
