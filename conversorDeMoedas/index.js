@@ -1,8 +1,3 @@
-// Trocar a imagem de fundo --->
-// Fazer conversor para dólares e euros ---->
-// Formatar o valor resultante no formato "1.000.000,00" 
-    // para facilitar a leitura
-
 let resultado = 1;
 
 function conversor(){
