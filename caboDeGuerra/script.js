@@ -1,5 +1,3 @@
-// criar duas listas com tres jogadores cada
-
 listaPossiveisViloes = ["Coringa", "Úrsula", "Malévola", "Thanos", "Jafar"]
 
 
@@ -62,6 +60,3 @@ function recomecar() {
     document.getElementById('jogo').style.display = 'block'
     document.getElementById('resultadoFinal').innerText = '';
 }
-// calcular a força de cada jogador para as duas listas
-
-//comparar a força das duas listas
