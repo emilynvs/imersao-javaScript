@@ -1,6 +1,3 @@
-// Colocar uma variável do tipo "verdadeiro" ou "falso" (Variáveis Primitivas e Controle de Fluxo) para indicar se venceu ou não.
-// Bloquear a possibilidade do jogador "roubar" colocando um número maior que 3.
-
 let round = 1
 let userChoice = null;
 let textRound = document.getElementById('round');
